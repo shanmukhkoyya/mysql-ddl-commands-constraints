@@ -1,3 +1,7 @@
+-- WARNING: This is a destructive learning exercise.
+-- It uses TRUNCATE, DROP TABLE, and DROP DATABASE, and recreates the employee database.
+-- Run only in a disposable local MySQL environment. Never run on production data.
+
 CREATE DATABASE employee;
 USE employee;
 CREATE TABLE Departments (
