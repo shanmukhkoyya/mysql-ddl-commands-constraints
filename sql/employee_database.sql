@@ -1,3 +1,7 @@
+-- SAFETY WARNING: This practice script drops and recreates the employee database.
+-- It includes TRUNCATE/DROP statements to demonstrate DDL. Use only in a disposable learning environment.
+-- Do not run against a production database or a database containing important data.
+
 -- ============================================================
 -- MySQL Assignment 1 - DDL Commands & Constraints
 -- Employee Database
