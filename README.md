@@ -88,11 +88,16 @@ Through this assignment, I practiced:
 - Establishing relationships between tables
 - Testing database integrity
 
-## 📂 Project Structure
+## Project files
 
-- README.md
-- sql/
-- assignment/
+| File | Purpose |
+|---|---|
+| [DDL Commands & Constraints — Assignment 1](sql/DDL%20Commands%20%26%20Constraints%20-%20Assignment%201.sql) | Demonstrates table changes, renaming, truncation, and dropping objects |
+| [Employee database script](sql/employee_database.sql) | Creates related tables, applies constraints, inserts sample data, and verifies the schema |
+
+## Safety note
+
+**These scripts contain destructive DDL commands** such as `TRUNCATE TABLE`, `DROP TABLE`, and `DROP DATABASE`. They are intended for a disposable MySQL learning database. Review the statements before executing and never run them against production data or a database containing important information.
 
 ## 👨‍💻 Author
 
