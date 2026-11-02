@@ -17,6 +17,8 @@
 -- 1. DATABASE CREATION
 -- ------------------------------------------------------------
 
+-- Reset the disposable practice database for a clean full run.
+DROP DATABASE IF EXISTS employee;
 CREATE DATABASE employee;
 
 USE employee;
