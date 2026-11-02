@@ -2,6 +2,8 @@
 -- It uses TRUNCATE, DROP TABLE, and DROP DATABASE, and recreates the employee database.
 -- Run only in a disposable local MySQL environment. Never run on production data.
 
+-- Reset the disposable learning database before recreating it.
+DROP DATABASE IF EXISTS employee;
 CREATE DATABASE employee;
 USE employee;
 CREATE TABLE Departments (
